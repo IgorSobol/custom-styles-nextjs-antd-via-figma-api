@@ -1,0 +1,20 @@
+.main-block {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  min-width: 100vw;
+  min-height: 100vh;
+  padding: 20px;
+  background-color: #ececec;
+}
+.site-card-border-less-wrapper {
+  margin-right: 20px;
+  margin-bottom: 20px;
+  .ant-btn {
+    margin-right: 10px;
+    margin-bottom: 10px;
+  }
+  .ant-card {
+    margin-bottom: 16px;
+  }
+}
